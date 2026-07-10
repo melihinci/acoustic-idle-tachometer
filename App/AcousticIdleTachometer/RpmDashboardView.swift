@@ -1,5 +1,7 @@
 import SwiftUI
+#if canImport(AcousticIdleTachometerCore)
 import AcousticIdleTachometerCore
+#endif
 
 struct RpmDashboardView: View {
     @StateObject private var viewModel = RpmDashboardViewModel()

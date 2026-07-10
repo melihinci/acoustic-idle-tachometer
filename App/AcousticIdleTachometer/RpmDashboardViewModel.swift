@@ -1,5 +1,7 @@
 import Foundation
+#if canImport(AcousticIdleTachometerCore)
 import AcousticIdleTachometerCore
+#endif
 
 @MainActor
 final class RpmDashboardViewModel: ObservableObject {

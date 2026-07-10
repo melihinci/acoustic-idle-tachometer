@@ -16,3 +16,11 @@ iOS native app feature for estimating engine idle RPM from microphone audio.
 ```sh
 swift test
 ```
+
+## Open in Xcode
+
+```sh
+open AcousticIdleTachometer.xcodeproj
+```
+
+The `AcousticIdleTachometer` scheme targets iOS 17+ and is configured for iPhone and iPad.
